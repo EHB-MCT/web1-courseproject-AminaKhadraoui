@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
 	margin: 0;
+	background-color: #f5f1df;
 	font-family: "Lato", sans-serif;
 }
 
@@ -13,6 +14,9 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
+}
+.sign {
+	height: 60px;
 }
 
 .navigation li {
@@ -52,9 +56,36 @@ header {
 }
 
 .intro {
+	display: flex;
+	align-items: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
 	background-color: yellow;
+	flex: 1;
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.intro h1 {
+	font-size: 35px;
 }
 
 .introduction {
-	background-color: blueviolet;
+	background-color: yellow;
+}
+
+.introduction h1 {
+	font-size: 25px;
+	color: #0c742f;
+}
+
+a.introduction {
+	border-radius: 5px;
+	padding: 8px 18px;
+	color: #f5efd4;
+	background-color: #0c742f;
+}
+
+a.introduction:hover {
+	background-color: #0e8736;
 }
