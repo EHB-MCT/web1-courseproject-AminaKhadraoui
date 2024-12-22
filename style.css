@@ -55,12 +55,11 @@ header {
 	height: 650px;
 	width: 90%;
 	margin: 0 auto;
-	background-color: #c2ba9a;
 }
 
 .intro {
-	margin-top: 60px;
-	margin-bottom: 80px;
+	width: 90%;
+	margin: 0 auto;
 	color: #075020;
 	text-align: center;
 	background-color: #c2ba9a;
@@ -73,7 +72,7 @@ header {
 
 
 .toph img {
-	width: 500px;
+	width: 1000px;
 	justify-content: flex-end;
 }
 
