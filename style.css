@@ -59,25 +59,19 @@ header {
 
 .intro {
 	margin-top: 60px;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
 	color: #075020;
 	text-align: center;
+	background-color: #c2ba9a;
 }
 
 .intro h1 {
 	font-size: 35px;
 }
 
-.introduction {
-	display: flex;
-	background-color: #c2ba9a;
-	margin-top: 60px;
-	margin-bottom: 100px;
-}
-
-.introduction h1 {
-	font-size: 25px;
-	color: #075020;
+.toph img {
+	width: 500px;
+	justify-content: flex-end;
 }
 
 a.me {
@@ -90,16 +84,26 @@ a.me {
 
 a.me:hover {
 	background-color: #0e8736;
-	color: black;
+	color: #c2ba9a;
 }
 
-.toph img {
-	width: 400px;
-	justify-content: flex-end;
+a.skill {
+	border-radius: 5px;
+	padding: 8px 18px;
+	color: black;
+	background-color: #0c742f;
+	font-weight: bold;
 }
+
+a.skill:hover {
+	background-color: #0e8736;
+	color: #c2ba9a;
+}
+
+
 
 .wrapper2{
-	height: 760px;
+	height: 900px;
 	width: 90%;
 	margin: 0 auto;
 	background-color: #c2ba9a;
@@ -119,6 +123,7 @@ a.me:hover {
 .skillstext h1{
 font-size: 27px;
 font-weight: bold;
+color: #075020;
 }
 
 .wrapper3{
@@ -134,4 +139,8 @@ font-weight: bold;
 	text-align: center;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+
+.about2 h1{
+	color: #075020;
 }
