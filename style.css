@@ -31,28 +31,27 @@ a {
 }
 
 a.home:hover {
-	background-color: blue;
+	background-color: #0e8736;
 	color: black;
 }
 
 a.about:hover {
-	background-color: blue;
+	background-color: #0e8736;
 	color: black;
 }
 
 a.skills:hover {
-	background-color: blue;
+	background-color: #0e8736;
 	color: black;
 }
 
 header {
 	width: 100%;
-	height: 100%;
 	text-align: center;
-}
+} 
 
 .wrapper {
-	height: 525px;
+	height: auto;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -70,7 +69,8 @@ header {
 }
 
 .toph img {
-	width: 900px;
+	width: 100%;
+	height: auto;
 	justify-content: flex-end;
 }
 
@@ -106,7 +106,6 @@ a.skill:hover {
 }
 
 .wrapper2{
-	height: 1050px;
 	width: 90%;
 	margin: 0 auto;
 	background-color: #c2ba9a;
@@ -129,7 +128,6 @@ font-weight: bold;
 }
 
 .wrapper3{
-	height: 760px;
 	width: 90%;
 	margin: 0 auto;
 	background-color: #c2ba9a;
@@ -146,3 +144,53 @@ font-weight: bold;
 .about2 h1{
 	color: #075020;
 }
+
+
+body {
+	font-family: "Arvo", sans-serif;
+  }
+  
+  .mobile-container {
+	max-width: 480px;
+	margin: auto;
+	background-color: #c2ba9a;
+	height: 500px;
+	color: black;
+	border-radius: 10px;
+  }
+  
+  .topnav {
+	overflow: hidden;
+	background-color: #075020;
+	position: relative;
+  }
+  
+  .topnav #myLinks {
+	display: none;
+  }
+  
+  .topnav a {
+	color: black;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	display: block;
+  }
+  
+  .topnav a.icon {
+	background: black;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+  }
+  
+  .topnav a:hover {
+	background-color: #075020;
+	color: black;
+  }
+  
+  .active {
+	background-color: #075020;
+	color: black;
+  }
