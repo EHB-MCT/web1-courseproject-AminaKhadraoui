@@ -9,12 +9,13 @@ body {
 .navigation {
 	width: calc(100% - 20px);
 	height: 60px;
-	background-color: red;
+	background-color: #075020;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px;
 }
+
 .sign {
 	height: 60px;
 }
@@ -27,6 +28,7 @@ body {
 a {
 	border-radius: 5px;
 	padding: 8px 18px;
+	color: black;
 }
 
 a.home:hover {
@@ -82,13 +84,14 @@ header {
 a.me {
 	border-radius: 5px;
 	padding: 8px 18px;
-	color: #f5efd4;
+	color: black;
 	background-color: #0c742f;
 	font-weight: bold;
 }
 
 a.me:hover {
 	background-color: #0e8736;
+	color: black;
 }
 
 .toph img {
@@ -96,15 +99,32 @@ a.me:hover {
 	justify-content: flex-end;
 }
 
-.about {
-	margin-top: 60px;
-	margin-bottom: 100px;
-	text-align: center;
+.wrapper2{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #c2ba9a;
 }
-
 .skills {
 	margin-top: 60px;
 	margin-bottom: 100px;
 	text-align: center;
 }
 
+.skillstext{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.wrapper3{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #c2ba9a;
+}
+
+.about2 {
+	margin-top: 60px;
+	margin-bottom: 100px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+}
