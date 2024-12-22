@@ -51,17 +51,18 @@ header {
 }
 
 .wrapper {
+	height: 900px;
 	width: 90%;
-	height: 1000px;
 	margin: 0 auto;
-	
+	background-color: #c2ba9a;
 }
 
 .intro {
-	margin-top: 50px;
-	margin-bottom: 10px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	color: #075020;
 	text-align: center;
+	background-color: aquamarine;
 }
 
 .intro h1 {
@@ -96,9 +97,14 @@ a.me:hover {
 }
 
 .about {
+	margin-top: 200px;
+	margin-bottom: 100px;
 	text-align: center;
 }
 
 .skills {
+	margin-top: 200px;
+	margin-bottom: 100px;
 	text-align: center;
 }
+
