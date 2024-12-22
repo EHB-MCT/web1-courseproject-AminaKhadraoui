@@ -16,7 +16,7 @@ body {
 }
 
 .sign {
-	height: 60px;
+	height: 45px;
 }
 
 .navigation li {
@@ -52,9 +52,10 @@ header {
 }
 
 .wrapper {
-	height: 900px;
+	height: 650px;
 	width: 90%;
 	margin: 0 auto;
+	background-color: #c2ba9a;
 }
 
 .intro {
@@ -68,6 +69,8 @@ header {
 .intro h1 {
 	font-size: 35px;
 }
+
+
 
 .toph img {
 	width: 500px;
@@ -100,7 +103,10 @@ a.skill:hover {
 	color: #c2ba9a;
 }
 
-
+.introduction p{
+	font-size: 15px;
+	color: black;
+}
 
 .wrapper2{
 	height: 900px;
@@ -108,26 +114,25 @@ a.skill:hover {
 	margin: 0 auto;
 	background-color: #c2ba9a;
 }
-.skills {
+.skills2 {
 	margin-top: 60px;
 	margin-bottom: 70px;
 	text-align: center;
+	color: #075020;
 }
 
 .skillstext{
 	margin-left: 10%;
 	margin-right: 10%;
-	
 }
 
 .skillstext h1{
 font-size: 27px;
 font-weight: bold;
-color: #075020;
 }
 
 .wrapper3{
-	height: 900px;
+	height: 760px;
 	width: 90%;
 	margin: 0 auto;
 	background-color: #c2ba9a;
